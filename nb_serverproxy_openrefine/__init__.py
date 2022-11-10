@@ -12,6 +12,7 @@ def setup_openrefine():
         'command': ['touch', 'thisisiafile'],
         'environment': {},
         'timeout': 120,
+        'new_browser_tab': True,
         'launcher_entry': {
             'title': 'OpenRefine',
             'icon_path': os.path.join(os.path.dirname(os.path.abspath(__file__)), 'icons', 'openrefine.svg')
