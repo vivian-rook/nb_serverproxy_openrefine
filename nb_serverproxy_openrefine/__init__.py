@@ -9,7 +9,7 @@ def setup_openrefine():
     if not os.path.exists(openrefine_path):
         os.makedirs(openrefine_path)
     return {
-        'command': ['refine', '-p', '{port}','-d', openrefine_path],
+        'command': ['touch', 'thisisiafile'],
         'environment': {},
         'timeout': 120,
         'launcher_entry': {
